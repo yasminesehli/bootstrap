@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Courses </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    
+</head>
+
+<body>
+        <nav class="navbar navbar-inverse ">
+                <div class="container-fluid">
+                        <div class="navbar-header">
+                        <img style="max-width:100px; margin-top:-10px"
+                          src="res/logo.jpg">
+                         </a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                        <li class="active">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Courses.html">Courses</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        
+                        </ul>
+                       
+                </div>
+                </nav>
+    <div class="row">
+  <h1 class="text">Courses</h1>
+    <img  class="bg-img "  src="./res/gomycode3.jpeg"> 
+    
+    </div>
+    <center>
+        <div class="block row ">
+
+        
+        <div class="imageblock1 col-lg-4 col-sm-12" >   
+            <img class ="image1" src="res/web1.png">
+            <a href="#ex1" rel="modal:open"><button class="button1">View more</button></a>
+        </div>
+            
+        
+        <div class="imageblock2 col-lg-4 col-sm-12">
+            <img class ="image2" src="res/web1.png">
+            <a href="#ex1" rel="modal:open"><button class="button2">View more</button></a>
+        </div>
+
+
+        <div class="imageblock3 col-lg-4 col-sm-12">
+            <img class ="image3" src="res/web1.png">
+            <a href="#ex1" rel="modal:open"><button class="button3">View more</button></a>
+        </div>
+
+        
+        <div class="imageblock4 col-lg-4 col-sm-12">
+            <img class ="image4" src="res/web1.png">
+            <a href="#ex1" rel="modal:open"><button class="button4">View more</button></a>
+        </div>
+
+
+        <div class="imageblock5 col-lg-4 col-sm-12">
+            <img class ="image5" src="res/web1.png">
+           <a href="#ex1" rel="modal:open"><button class="button5">View more</button></a>
+            
+        </div>
+
+
+        <div class="imageblock6 col-lg-4 col-sm-12">
+            <img class ="image6" src="res/web1.png">
+            <a href="#ex1" rel="modal:open"><button class="button6">View more</button></a>   
+        </div>
+
+    </div>
+    </center>
+    <h2 class="feed"><center><b>Feedback</b></center></h2><br>
+    <center>
+        
+
+
+        
+     <button type="button" class="btn btn-primary fdb " onclick="bold()">B</button>
+     <button type="button" class="btn btn-primary fdb" onclick="Italic()">I</button>    
+     <button type="button" class="btn btn-primary fdb" onclick="under()">Underline</button>
+    
+
+    <select id="list" class="btn btn-primary dropdown-toggle fdb " onchange="Size()" >
+        <option value="20">20px</option>
+        <option value="30">30px</option>
+    </select>
+
+
+    <select id="list2" class="btn btn-primary dropdown-toggle fdb " onchange="Font()">
+        <option value="Arial">Arial</option>
+        <option value="Elephant">Elephant</option>
+        <option value="Georgia">Georgia</option>
+
+    </select>
+    <form>
+      <br>
+      <textarea id="textarea" cols="50" row="20" ></textarea>
+
+    </form>
+    
+    </center>
+    <div id="ex1" class="modal">
+        <p>This is GoMyCode Track. 
+            Each track has its own goal. 
+            By adopting this track, you chose your own goal.</p>
+        <a href="#" rel="modal:close"></a>
+      </div>
+    
+    
+</body>
+<script src="js/main.js"></script>
+
+</html>
